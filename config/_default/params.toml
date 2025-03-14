@@ -1,0 +1,80 @@
+#################### default parameters ################################
+# favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
+favicon = "images/favicon.png"
+# logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
+logo = "images/logo.svg"
+# use `px` or `x` with logo_width, example: "100px".
+# Note: logo_width is not work with .svg file
+logo_width = "200px"
+logo_height = ""
+# if logo_webp set false, will not generate WEBP version of logo | default is true
+logo_webp = true
+# logo text will only show when logo is missing.
+logo_text = "Logo&trade;"
+# Main Sections
+mainSections = ["blog"]
+# contact form action
+#contact_form_action = "https://formspree.io/f/xgernlzd" # contact form works with [https://airform.io/] or [https://formspree.io]
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "" # example: G-XXXXXXXXXX
+google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
+custom_script = ""
+# footer information
+footer_info = """
+Footer info.
+"""
+
+# copyright
+copyright = "Copyright &copy; 2025 Visual Systems Corporation"
+# buy premium popup
+buy_premium_popup = false
+# reading time for blog posts
+reading_time = true
+
+# Preloader
+# preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
+[preloader]
+enable = false
+preloader = "images/favicon.png" # use jpg, png, svg or gif format.
+
+# Navigation button
+[navigation_button]
+enable = true
+label = "Sign In"
+link = "https://google.com"
+
+# contact information
+[contact_info]
+address = "Minneapolis, MN"
+phone = ["612-123-4567"]
+email = ["info@example.com"]
+
+
+# seo meta data for OpenGraph / Twitter Card
+# seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
+[metadata]
+keywords = ["App"]
+description = "Logo™ is the app that works."
+author = "Visual Systems Corporation"
+image = "images/logo.svg"
+
+# site verifications
+# verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
+[site_verification]
+google = ""   # Your verification code
+bing = ""     # Your verification code
+baidu = ""    # Your verification code
+facebook = "" # Your verification code
+mastodon = "" # Your verification code
+
+# cookies
+# cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
+[cookies]
+enable = false
+expire_days = 60
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+
